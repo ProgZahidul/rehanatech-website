@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rehanatech-এর বাংলা ব্লগ: CCTV নিরাপত্তা, CCTV ও অ্যাক্সেস কন্ট্রোল সিস্টেম নির্বাচন এবং ফায়ার ডিটেকশন ও অ্যালার্ম সিস্টেম সম্পর্কে জানুন।">
+  <title>ব্লগ ও সিকিউরিটি গাইড | Rehanatech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { bn: ['Hind Siliguri', 'sans-serif'], en: ['Inter', 'sans-serif'] },
+          colors: { brand: { blue: '#0878f9', navy: '#0b1836', green: '#16a34a', pale: '#eff8ff' } },
+          boxShadow: { soft: '0 18px 55px rgba(15, 35, 70, .09)' }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Hind Siliguri', sans-serif; }
+    .english { font-family: Inter, sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <div class="bg-[#0b1836] text-white">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-5 py-2 text-xs sm:text-sm">
+      <p>বাংলাদেশে CCTV ও সিকিউরিটি সিস্টেম ইনস্টলেশন সার্ভিস</p>
+      <a class="english font-semibold hover:text-green-300" href="tel:+8801685866059">+880 1685-866059</a>
+    </div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+      <a href="rehanatech_bangla_security_website_hero_aligned.html#home" class="flex items-center gap-3" aria-label="Rehanatech Home">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-400 via-blue-600 to-indigo-700 text-3xl font-extrabold text-white shadow-md">R</div>
+        <div>
+          <div class="english text-2xl font-extrabold tracking-tight text-[#0b1836]">Rehana<span class="text-blue-600">tech</span></div>
+          <div class="english pl-1 text-[9px] font-bold tracking-[.34em] text-slate-500">BUILD · SOLVE · GROW</div>
+        </div>
+      </a>
+      <button id="menuBtn" class="rounded-xl border border-slate-200 p-2 md:hidden" aria-label="মেনু খুলুন" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <div id="navLinks" class="absolute left-0 right-0 top-full hidden flex-col gap-4 border-b border-slate-100 bg-white px-5 py-5 shadow-lg md:static md:flex md:flex-row md:items-center md:gap-7 md:border-0 md:bg-transparent md:p-0 md:shadow-none">
+        <a href="/index.html" class="hover:text-blue-600">হোম</a>
+        <a href="/index.html#services" class="hover:text-blue-600">সার্ভিস</a>
+        <a href="/index.html#about" class="hover:text-blue-600">আমাদের সম্পর্কে</a>
+        <a href="/index.html#blog" class="font-semibold text-blue-600">ব্লগ</a>
+        <a href="/index.html#contact" class="rounded-full bg-green-600 px-5 py-2.5 font-semibold text-white shadow-md shadow-green-600/20 transition hover:bg-green-700">ফ্রি কনসালটেশন</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section id="latest-blogs" class="mx-auto max-w-7xl px-5 py-16 sm:py-20">
+      <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+        <div>
+          <p class="font-bold text-green-600">সর্বশেষ আর্টিকেল</p>
+          <h2 class="mt-3 text-3xl font-bold text-[#0b1836] sm:text-4xl">আমাদের ব্লগ</h2>
+          <p class="mt-3 max-w-2xl leading-7 text-slate-600">নিরাপত্তা প্রযুক্তি সম্পর্কে গুরুত্বপূর্ণ বিষয়গুলো জানুন এবং আপনার প্রতিষ্ঠানের জন্য সঠিক সিদ্ধান্ত নিন।</p>
+        </div>
+        <p class="text-sm text-slate-500">মোট ৩টি আর্টিকেল</p>
+      </div>
+
+      <div class="mt-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+        <article class="group flex h-full flex-col overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft">
+          <a href="blog_1.html" class="block overflow-hidden">
+            <img class="h-56 w-full object-cover transition duration-500 group-hover:scale-105" src="../images/cctv.png" alt="ব্যবসাপ্রতিষ্ঠানের CCTV ক্যামেরা" onerror="this.style.display='none'">
+          </a>
+          <div class="flex flex-1 flex-col p-6">
+            <span class="w-fit rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">CCTV নিরাপত্তা</span>
+            <h3 class="mt-4 text-xl font-bold leading-snug text-[#0b1836]"><a class="transition hover:text-blue-600" href="rehanatech_cctv_business_blog_bn.html">আপনার ব্যবসায় CCTV ক্যামেরা কেন গুরুত্বপূর্ণ?</a></h3>
+            <p class="mt-3 flex-1 leading-7 text-slate-600">চুরি প্রতিরোধে সহায়তা, দূর থেকে পর্যবেক্ষণ এবং গুরুত্বপূর্ণ ঘটনার ফুটেজ সংরক্ষণে CCTV কীভাবে কাজে আসে জানুন।</p>
+            <div class="mt-5 border-t border-slate-100 pt-4">
+              <p class="text-sm text-slate-500">লেখক: <span class="font-semibold text-slate-700">Sayed Zahidul Hoque</span></p>
+              <a href="/blogs/blog_1.html" class="mt-4 inline-flex items-center font-bold text-blue-600">সম্পূর্ণ ব্লগ পড়ুন <span class="ml-2 transition group-hover:translate-x-1">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="group flex h-full flex-col overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft">
+          <a href="../blogs/blog_2.html" class="block overflow-hidden">
+            <img class="h-56 w-full object-cover transition duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=900&q=85" alt="অ্যাক্সেস কন্ট্রোল সিস্টেম" onerror="this.style.display='none'">
+          </a>
+          <div class="flex flex-1 flex-col p-6">
+            <span class="w-fit rounded-full bg-green-50 px-3 py-1 text-xs font-bold text-green-700">সিকিউরিটি সিস্টেম গাইড</span>
+            <h3 class="mt-4 text-xl font-bold leading-snug text-[#0b1836]"><a class="transition hover:text-blue-600" href="rehanatech_cctv_access_control_selection_blog_bn.html">সঠিক CCTV ও অ্যাক্সেস কন্ট্রোল সিস্টেম বাছাই করবেন কীভাবে?</a></h3>
+            <p class="mt-3 flex-1 leading-7 text-slate-600">ক্যামেরা, স্টোরেজ, বায়োমেট্রিক ডিভাইস, বাজেট ও ইনস্টলেশন নিয়ে সিদ্ধান্ত নেওয়ার সহজ গাইড।</p>
+            <div class="mt-5 border-t border-slate-100 pt-4">
+              <p class="text-sm text-slate-500">লেখক: <span class="font-semibold text-slate-700">Sayed Zahidul Hoque</span></p>
+              <a href="blog_2.html" class="mt-4 inline-flex items-center font-bold text-blue-600">সম্পূর্ণ ব্লগ পড়ুন <span class="ml-2 transition group-hover:translate-x-1">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="group flex h-full flex-col overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft">
+          <a href="blog_3.html" class="block overflow-hidden">
+            <img class="h-56 w-full object-cover transition duration-500 group-hover:scale-105" src="../images/fire alarm.jpg" alt="ফায়ার সেফটি ও অ্যালার্ম সিস্টেম" onerror="this.style.display='none'">
+          </a>
+          <div class="flex flex-1 flex-col p-6">
+            <span class="w-fit rounded-full bg-red-50 px-3 py-1 text-xs font-bold text-red-700">ফায়ার সেফটি</span>
+            <h3 class="mt-4 text-xl font-bold leading-snug text-[#0b1836]"><a class="transition hover:text-blue-600" href="rehanatech_fire_detection_alarm_blog_bn.html">ফায়ার ডিটেকশন ও অ্যালার্ম সিস্টেম কেন প্রয়োজন?</a></h3>
+            <p class="mt-3 flex-1 leading-7 text-slate-600">আগুন বা ধোঁয়া দ্রুত শনাক্ত করা, মানুষকে সতর্ক করা এবং নিয়মিত রক্ষণাবেক্ষণের গুরুত্ব জানুন।</p>
+            <div class="mt-5 border-t border-slate-100 pt-4">
+              <p class="text-sm text-slate-500">লেখক: <span class="font-semibold text-slate-700">Sayed Zahidul Hoque</span></p>
+              <a href="blog_3.html" class="mt-4 inline-flex items-center font-bold text-blue-600">সম্পূর্ণ ব্লগ পড়ুন <span class="ml-2 transition group-hover:translate-x-1">→</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 pb-16">
+      <div class="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-[#0b1836] px-6 py-10 text-white sm:flex-row sm:items-center sm:px-10">
+        <div>
+          <p class="font-semibold text-green-300">FREE CONSULTATION</p>
+          <h2 class="mt-2 text-2xl font-bold sm:text-3xl">আপনার ব্যবসার নিরাপত্তা নিয়ে পরামর্শ প্রয়োজন?</h2>
+          <p class="mt-3 max-w-2xl leading-7 text-slate-300">CCTV, অ্যাক্সেস কন্ট্রোল বা ফায়ার অ্যালার্ম সিস্টেম নিয়ে আমাদের সঙ্গে কথা বলুন।</p>
+        </div>
+        <a href="tel:+8801685866059" class="shrink-0 rounded-full bg-green-500 px-6 py-3.5 font-bold text-white transition hover:bg-green-400">কল করুন: +880 1685-866059</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-100 bg-white">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-4 px-5 py-8 sm:flex-row sm:items-center">
+      <div>
+        <div class="english text-xl font-extrabold text-[#0b1836]">Rehana<span class="text-blue-600">tech</span></div>
+        <p class="english mt-1 text-[9px] font-bold tracking-[.3em] text-slate-500">BUILD · SOLVE · GROW</p>
+      </div>
+      <p class="text-sm text-slate-500">© <span id="year"></span> Rehanatech. সর্বস্বত্ব সংরক্ষিত।</p>
+      <a href="/index.html#home" class="font-semibold text-blue-600 hover:text-blue-800">মূল ওয়েবসাইটে ফিরে যান ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => {
+      const hidden = navLinks.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(!hidden));
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      if (window.innerWidth < 768) {
+        navLinks.classList.add('hidden');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
